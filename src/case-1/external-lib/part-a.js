@@ -1,0 +1,1 @@
+export { shared } from "../external-lib/shared.js";

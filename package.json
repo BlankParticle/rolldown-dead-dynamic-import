@@ -1,0 +1,14 @@
+{
+  "name": "rolldown-dead-dynamic-import",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.11.2",
+  "scripts": {
+    "case-1": "node build.mjs case-1",
+    "case-2": "node build.mjs case-2",
+    "start": "node build.mjs case-1 && node build.mjs case-2"
+  },
+  "dependencies": {
+    "rolldown": "1.2.13"
+  }
+}
